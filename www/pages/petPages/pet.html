@@ -12,6 +12,7 @@
             .st3{stroke:#231F20;stroke-linecap:round;stroke-miterlimit:10;}
             .st4{fill:#D69343;stroke:#231F20;stroke-linecap:round;stroke-miterlimit:10;}
             .st5{fill:#EFD4B4;stroke:#231F20;stroke-linecap:round;stroke-miterlimit:10;}
+            .st6{fill:#FFFFFF;}
 
             /*/////Clock Stuff////*/
             .necklace{opacity: 0}
@@ -37,8 +38,13 @@
             .moon{fill:#3300CC;stroke:#FFFFFF;stroke-linecap:round;stroke-miterlimit:10;}*/
 
             /*////SAD BEAR//////*/
-            .tears{opacity:0.69;fill:#99CCFF;}
-            .frown{fill:#D69343;stroke:#231F20;stroke-linecap:round;stroke-miterlimit:10;}
+            .tears{opacity:0;fill:#99CCFF;}
+            .frown{opacity:0;fill:#D69343;stroke:#231F20;stroke-linecap:round;stroke-miterlimit:10;}
+
+            /*////TUSKS AND CLAWS////*/
+            .tusks{opacity:0;fill:#E6E7E8;stroke:#231F20;stroke-linecap:round;stroke-miterlimit:10;}
+            .claws{opacity:0;fill:#E6E7E8;stroke:#231F20;stroke-linecap:round;stroke-miterlimit:10;}
+
             /*////////////////////*/
 
 
@@ -80,9 +86,22 @@
             <g class="body">
               <circle class="st2" cx="354.6" cy="472" r="99.6"/>
             </g>
+
             <ellipse class="st2" cx="354.3" cy="319.3" rx="83" ry="70.5"/>
-            <circle class="st3" cx="394.3" cy="298.1" r="8.8"/>
-            <circle class="st3" cx="316.6" cy="298.1" r="8.8"/>
+            <g class="eyes">
+              <g class="leftEye">
+              <circle cx="398.6" cy="299.5" r="9.7"/>
+              <circle class="st6" cx="394.5" cy="297.6" r="3.3"/>
+              <circle class="st6" cx="399.1" cy="302.7" r="1.3"/>
+              <circle class="st6" cx="401" cy="298.2" r="1.2"/>
+              </g>
+              <g class="rightEye">
+              <circle cx="309.9" cy="299.2" r="9.7"/>
+              <circle class="st6" cx="305.8" cy="297.4" r="3.3"/>
+              <circle class="st6" cx="310.4" cy="302.4" r="1.3"/>
+              <circle class="st6" cx="312.4" cy="298" r="1.2"/>
+              </g>
+            </g>
             <ellipse class="st4" cx="355.4" cy="329.4" rx="32.3" ry="23.4"/>
             <ellipse class="st3" cx="355.9" cy="324.2" rx="9.5" ry="6.2"/>
             <line class="st3" x1="355.9" y1="323.9" x2="355.9" y2="336.9"/>
@@ -204,7 +223,32 @@
               <ellipse class="tear3" cx="308.6" cy="305.1" rx="3.9" ry="2.4"/>
               <ellipse class="tear4" cx="308.6" cy="305.1" rx="3.9" ry="2.4"/>
             </g>
+
+<!-- ////////// CLAWS AND TUSKS //////////// -->
+
+          <g class="tusks">
+            <polygon class="st1" points="361.7,341.7 382.6,341.7 372.1,419.4 	"/>
+            <polygon class="st1" points="328.7,341.6 349.7,341.6 339.2,419.3 	"/>
+          </g>
+          <g class="claws">
+            <path class="st1" d="M197.9,482c-5.4,5.2-9,10.9-9.7,15c2.2-3.7,5.7-7.1,10.2-9.5c5.8-3.1,12-3.8,17.1-2.5c3-4.8,4-9.1,2.1-11.1
+              C214.6,470.8,205.8,474.4,197.9,482z"/>
+            <path class="st1" d="M193.5,475.3c-5.4,5.2-9,10.9-9.7,15c2.2-3.7,5.7-7.1,10.2-9.5c5.8-3.1,12-3.8,17.1-2.5c3-4.8,4-9.1,2.1-11.1
+              C210.2,464.1,201.4,467.8,193.5,475.3z"/>
+            <path class="st1" d="M191.1,466.1c-5.4,5.2-9,10.9-9.7,15c2.2-3.7,5.7-7.1,10.2-9.5c5.8-3.1,12-3.8,17.1-2.5c3-4.8,4-9.1,2.1-11.1
+              C207.8,454.9,199,458.5,191.1,466.1z"/>
+          </g>
+          <g class="claws">
+            <path class="st1" d="M514.9,484.8c5.4,5.2,9,10.9,9.7,15c-2.2-3.7-5.7-7.1-10.2-9.5c-5.8-3.1-12-3.8-17.1-2.5
+              c-3-4.8-4-9.1-2.1-11.1C498.3,473.6,507,477.2,514.9,484.8z"/>
+            <path class="st1" d="M519.3,478.2c5.4,5.2,9,10.9,9.7,15c-2.2-3.7-5.7-7.1-10.2-9.5c-5.8-3.1-12-3.8-17.1-2.5
+              c-3-4.8-4-9.1-2.1-11.1C502.6,466.9,511.4,470.6,519.3,478.2z"/>
+            <path class="st1" d="M521.7,468.9c5.4,5.2,9,10.9,9.7,15c-2.2-3.7-5.7-7.1-10.2-9.5c-5.8-3.1-12-3.8-17.1-2.5
+              c-3-4.8-4-9.1-2.1-11.1C505,457.7,513.8,461.3,521.7,468.9z"/>
+          </g>
         </g>
+
+  <!-- /////END BEAR//////// -->
 
       </svg>
         <span class="progress-text">
