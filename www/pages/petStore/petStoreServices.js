@@ -38,9 +38,7 @@ angular.module('store.service', ['app.store'])
                 2: 'octopus',
                 3: 'dragon',
               };
-              console.log($rootScope.pet.pet_type_id)
               const type = types[$rootScope.pet.pet_type_id];
-              console.log(type, 'type')
               $location.path(`/market/${type}`);
             }, (error) => {
               console.warn(error);

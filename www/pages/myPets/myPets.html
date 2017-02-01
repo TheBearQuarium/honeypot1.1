@@ -8,7 +8,7 @@
         <img ng-src="{{petImages[pet.pet_type_id]}}">
         <div id="pet-text">
           <h2>{{ pet.name }}</h2>
-          <h3><strong>{{ pet.goal_progress }}% saved to {{ pet.goal_name }}</strong></h3>
+          <h3><strong>{{ pet.goal_progress / pet.goal_amt }}% saved to {{ pet.goal_name }}</strong></h3>
           <p><font color={{fontColor(pet.hunger)}}><strong>Hunger:</strong> {{ pet.hunger }} </font></p>
           <p><font color={{fontColor(pet.happiness)}}><strong>Happiness:</strong> {{pet.happiness}}</font> </p>
         </div>
