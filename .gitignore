@@ -4,3 +4,4 @@ node_modules/
 practice.html
 honeypot-api/npm-debug.log
 .eslintrc
+etc/https/
